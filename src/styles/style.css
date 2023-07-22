@@ -1,0 +1,28 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+
+}
+header{
+   background-color: aqua;
+   display: flex;
+   
+
+}
+
+header h1{
+    margin-right: 20%;
+}
+
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+
+}
+
+.nav h3{
+    margin-right: 4vw;
+}
