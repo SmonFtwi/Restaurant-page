@@ -2,27 +2,109 @@
 body{
     margin: 0px;
     padding: 0px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+    
 
 }
 header{
-   background-color: aqua;
+   background-color: #1c1917;
    display: flex;
-   
+   flex-wrap: wrap;
+   justify-content: space-around;
+   color:white;
+   margin: 0; /* Reset margin */
+    padding: 0;
 
 }
 
 header h1{
-    margin-right: 20%;
+    color:#f38a34;
 }
 
 .nav{
     display: flex;
     flex-wrap: wrap;
-    
-    
+    justify-content: center;
+    align-items: center;
 
 }
 
 .nav h3{
     margin-right: 4vw;
+    text-decoration: underline;
+    border-radius: 5px;
+    color:white;
+}
+.nav h3:hover{
+    margin-right: 4vw;
+    text-decoration: underline;
+    border-radius: 5px;
+    color:#f38a34;
+    cursor: pointer;
+}
+.nav h3:focus{
+    margin-right: 4vw;
+    text-decoration: underline;
+    border-radius: 5px;
+    color:#f38a34;
+    cursor: pointer;
+}
+
+.mainPage{
+    background: url('../images/bur6.jpeg') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* Optionally set a fixed height to ensure the image covers the entire page */
+    height: 100vh;
+    margin: 0; /* Reset margin */
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  
+   
+}
+
+
+.homeContent{
+    width:50vw;
+    background-color: rgba(44, 42, 40, 0.7);
+    padding: 10vh ;
+    border-radius: 5px;
+    color: #f38a34;
+    
+}
+.orderNow{
+    margin-top: 5vh;
+    padding: 1vh 2vh;
+    border-radius: 5px;
+    background-color: #f38a34;
+    color: white;
+    border: 0px;
+}
+
+footer{
+    color:white;
+    background-color: #1c1917;
+    text-align: center;
+    background-size: cover;
+    margin: 0;
+    padding: 0.25vh;
+}
+
+/* style for the menu page only */ 
+
+#menu{
+    background: url('../images/bur6.jpeg') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* Optionally set a fixed height to ensure the image covers the entire page */
+    height: 100vh;
+    margin: 0; /* Reset margin */
+    padding: 0;
 }
