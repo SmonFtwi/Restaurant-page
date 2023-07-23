@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack" ,
-    "deploy-demo": "git subtree push --prefix dist origin main"
+    "deploy":"git subtree push --prefix dist origin gh-pages"
+
 
   },
   "repository": {
