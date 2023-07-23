@@ -15,7 +15,7 @@ function menuPage(){
     welcome.textContent= 'Menu';
 
     const menuItems = document.createElement('div');
-    menuItems.classList ('manuItems')
+    menuItems.classList.add('manuItems')
     
     menuContent.appendChild(welcome);
 
